@@ -1,0 +1,39 @@
+
+h2 {
+    text-align: center;
+}
+
+.circle {
+    color: #aaa;
+    border: #aaa 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    padding: 12px;
+    font: 32px Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0.6em;
+}
+
+.character-description {
+    color: transparent;
+    background: #ccc;
+    padding: 15px 10px;
+    content: 'test';
+    border: #aaa 1px solid;
+}
+
+.character-description:active {
+    background: white;
+    color: black;
+}
+
+h3.subtitle {
+    text-align: center;
+    color: gray;
+    font-weight: normal;
+    font-size: 130%;
+}
